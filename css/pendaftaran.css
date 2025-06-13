@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+
+main{
+    position: relative;
+    width: 100%;
+}
+
+main:after{
+    content: "";
+    width: 100%;
+    height: 100vh;
+    background: #000000;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+#bg-vid{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    object-fit: cover;
+    z-index: -99;
+}
+
+.wrapper{
+    margin: auto;
+    padding: 150px;
+    width: 80%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 99;
+}
+
+.login-box{
+    text-align: center;
+}
+
+.login-header{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.input-box{
+    padding: 10px 0;
+}
+
+.input-field{
+    padding: 20px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    transition: 0.3s;
+    transition: all 0.3s ease-in-out;
+}
+
+.input-field:focus{
+    padding: 25px;
+    transition: 0.2s;
+    border-radius: 30px;
+    background-color: rgb(232, 232, 232);
+    font-size: large;
+    transition: all 0.2s ease-in-out;
+}
+
+.input-submit a{
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+
+.submit-btn {
+    bottom: 10px;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    margin: auto;
+    transition: 0.15s;
+    color: rgb(218, 141, 0);
+    font-weight: 700;
+}
+
+.submit-btn:hover{
+    background-color: rgb(218, 141, 0);
+    transition: 0.15s;
+    color: white;
+
+}
+
+
+
