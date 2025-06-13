@@ -88,7 +88,7 @@ if (isset($_SESSION["user_id"])) {
                         <div class="box box-3">
                             <img src="./image/pending.png" alt="esport">
                             <p>lihat konten kebudayaan lainya</p>
-                            <a href="#" class="box-btn">klik disini</a>
+                            <a href="CRUD/artikel/index.php" class="box-btn">klik disini</a>
                         </div>
                     </div>
                 </div>
